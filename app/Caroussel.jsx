@@ -1,17 +1,11 @@
 "use client";
 import { useEffect } from "react";
-import {
-    Carousel,
-    initTE,
-  } from "tw-elements";
-  
-  initTE({ Carousel });
 
 const Caroussel = () => {
   useEffect(() => {
     const init = async () => {
-      const { Tooltip, initTE } = await import("tw-elements");
-      initTE({ Tooltip });
+      const { Carousel, initTE } = await import("tw-elements");
+      initTE({ Carousel });
     };
     init();
   }, []);

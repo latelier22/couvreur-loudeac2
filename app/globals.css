@@ -4,6 +4,7 @@
 @layer base {
   html {
     @apply text-[#4f4f4f];
+    @apply bg-orange-500;
   }
   html.dark {
     @apply text-neutral-50;

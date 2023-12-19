@@ -1,3 +1,4 @@
+// TW Elements is free under AGPL, with a commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -20,12 +21,12 @@ module.exports = {
         slideLeft: {
           "0%": { opacity: 0, marginRight: "-600px" },
           "100%": { opacity: 1, marginRight: "0" },
-        }
+        },
       }),
       animation: {
         slideRight: "slideRight 1s ease-in",
-        slideLeft: "slideLeft 1s ease-in"
-      }
+        slideLeft: "slideLeft 1s ease-in",
+      },
     },
   },
   darkMode: "class",

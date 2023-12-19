@@ -18,24 +18,37 @@ const HeaderSimple = () => {
     { url: "photo-maconnerie1.png", alt: "gallery" },
     { url: "photo-maconnerie2.png", alt: "gallery" },
     { url: "photo-maconnerie3.png", alt: "gallery" },
-    { url: "photo-maconnerie4.png", alt: "gallery" }
+    { url: "photo-maconnerie4.png", alt: "gallery" },
   ];
 
   return (
     <header>
-      <div className="bg-black px-6 py-20 text-center text-neutral-800 dark:bg-neutral-700 dark:text-neutral-200">
-        <h1 className="mb-6 text-white  text-5xl font-bold">PRO COUVREUR ET NETTOYAGE</h1>
-        <h3 className="mb-8 text-orange-500 text-3xl font-bold">Loudéac et ses alentours</h3>
+      <div className="bg-black px-6 py-6 text-center text-neutral-800 dark:bg-neutral-700 dark:text-neutral-200">
+        <div className="flex justify-around items-center">
+        <div class="">
+          <img src="logo-sans-fond.png" className="rounded-full w-96 h-96" alt="" />
+        </div>
+        <div className="flex-col justify-center">
+        <h1 className="mb-6 text-white  text-5xl font-bold">
+          PRO COUVREUR ET NETTOYAGE
+        </h1>
+        <h3 className="mb-8 text-orange-500 text-3xl font-bold">
+          Loudéac et ses alentours
+        </h3>
         <a
           className="inline-block rounded  bg-orange-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
           data-te-ripple-init
           data-te-ripple-color="light"
-          href="#!"
+          href="/contact"
           role="button"
         >
           Me contacter
         </a>
+      </div></div>
       </div>
+
+
+
       <div>
         <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12 animate-slideRight">
           <div className="-m-1 flex flex-wrap md:-m-2">

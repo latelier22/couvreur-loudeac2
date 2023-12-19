@@ -11,75 +11,35 @@ const Header = () => {
   }, []);
 
   return (
-  <header>
-    <div
-      className="bg-neutral-50 px-6 py-20 text-center text-neutral-800 dark:bg-neutral-700 dark:text-neutral-200">
-      <h1 className="mb-6 text-5xl font-bold">PRO COUVREUR ET NETTOYAGE</h1>
-      <h3 className="mb-8 text-3xl font-bold">Loudéac et ses alentours</h3>
-      <a
-        className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
-        data-te-ripple-init
-        data-te-ripple-color="light"
-        href="#!"
-        role="button"
-        >Me contacter</a
+    <header>
+      <div
+        className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
+        style={{
+          backgroundImage: "url('https://tecdn.b-cdn.net/img/new/slides/041.webp')",
+          height: '400px'
+        }}
       >
-    </div>
-    <div>
-    <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
-  <div className="-m-1 flex flex-wrap md:-m-2">
-    <div className="flex w-1/3 flex-wrap">
-      <div className="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
+        <div
+          className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+          style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
+        >
+          <div className="flex h-full items-center justify-center">
+            <div className="text-white">
+              <h2 className="mb-4  text-4xl font-semibold animate-slideLeft">Heading</h2>
+              <h4 className="mb-6 text-xl font-semibold">Subheading</h4>
+              <button
+                type="button"
+                className="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
+                Call to action
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div className="flex w-1/3 flex-wrap">
-      <div className="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" />
-      </div>
-    </div>
-    <div className="flex w-1/3 flex-wrap">
-      <div className="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
-      </div>
-    </div>
-    <div className="flex w-1/3 flex-wrap">
-      <div className="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
-      </div>
-    </div>
-    <div className="flex w-1/3 flex-wrap">
-      <div className="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp" />
-      </div>
-    </div>
-    <div className="flex w-1/3 flex-wrap">
-      <div className="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-  </header>
+    </header>
   );
 };
 

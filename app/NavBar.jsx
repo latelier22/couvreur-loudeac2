@@ -15,7 +15,7 @@ const Navbar = () => {
     { label: "Accueil", route: "/" },
     { label: "Entretien", route: "/entretien" },
     { label: "Réparation", route: "/reparation" },
-    { label: "Fuite de", route: "/fuite" },
+    { label: "Fuite de toit", route: "/fuite" },
     { label: "Travaux divers", route: "/travaux-divers" },
     { label: "Contact", route: "/contact" },
   ];

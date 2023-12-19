@@ -141,7 +141,7 @@ const photoFooter = [
   Il faut agir vite !
   </p>
   <p className="mb-4">
-  Nous intervenons 7/7 J - 24/24h en cas d'urgences ou fuites de votre toiture.
+  Nous intervenons 7/7 J - 24/24h en cas d&apos;urgences ou fuites de votre toiture.
   </p>
   </div>
 
@@ -268,7 +268,7 @@ const photoFooter = [
         className="font-semibold text-neutral-600 dark:text-neutral-400"
         href="www.latelier22.fr"
       >
-        L'Atelier - Webdesign
+        L&apos;Atelier - Webdesign
       </a>
 
   </div>

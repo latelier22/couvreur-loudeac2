@@ -1,17 +1,14 @@
 import Navbar from "../NavBar";
 import Footer from "../Footer";
-import HeaderSimple from "../headerSimple";
 
-const Fuite = () => {
+const Contact = () => {
   return (
     <>
       <Navbar />
-
-      <HeaderSimple/>
 
       <Footer />
     </>
   );
 };
 
-export default Fuite;
+export default Contact;

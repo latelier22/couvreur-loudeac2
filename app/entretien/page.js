@@ -1,13 +1,15 @@
 import Navbar from "../NavBar";
-
+import HeaderSimple from "../headerSimple";
+import Footer from "../Footer";
 
 const Entretien = () => {
   return (
     <>
-    <Navbar/>
-      
-      
-      
+      <Navbar />
+
+      <HeaderSimple />
+
+      <Footer />
     </>
   );
 };

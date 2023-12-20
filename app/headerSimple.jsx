@@ -24,10 +24,11 @@ const HeaderSimple = () => {
   return (
     <header>
       <div className="bg-black px-6 py-6 text-center text-neutral-800 dark:bg-neutral-700 dark:text-neutral-200">
-        <div className="flex justify-around items-center">
+        <div className="flex flex-col  lg:flex-row first-letter:lg:justify-around  items-center">
         <div class="">
-          <img src="logo-sans-fond.png" className="rounded-full w-96 h-96" alt="" />
+          <img src="logo-sans-fond.png" className="rounded-full w-10  md:w-40 lg:w-96 h-auto" alt="" />
         </div>
+        
         <div className="flex-col justify-center">
         <h1 className="mb-6 text-white  text-5xl font-bold">
           PRO COUVREUR ET NETTOYAGE
@@ -54,7 +55,7 @@ const HeaderSimple = () => {
           <div className="-m-1 flex flex-wrap md:-m-2">
             {/* Utiliser une boucle pour générer les éléments d'image */}
             {photos.map((photo, index) => (
-              <div key={index} className="flex w-1/3 flex-wrap">
+              <div key={index} className="flex justify-center sm:w-full md:w-1/2 lg:w-1/3 flex-wrap">
                 <div className="w-full p-1 md:p-2">
                   <img
                     alt={photo.alt}

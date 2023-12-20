@@ -4,8 +4,8 @@ import { useEffect } from "react";
 const Navbar = () => {
   useEffect(() => {
     const init = async () => {
-      const { Tooltip, initTE } = await import("tw-elements");
-      initTE({ Tooltip });
+      const { Collapse, initTE } = await import("tw-elements");
+      initTE({ Collapse });
     };
     init();
   }, []);
@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav className="relative flex w-full items-center justify-between bg-white py-2 text-neutral-600 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 dark:text-neutral-200 md:flex-wrap md:justify-start" data-te-navbar-ref>
-      <div className="flex w-full flex-wrap items-center justify-between px-3">
+      <div className="flex w-full flex-wrap items-center justify-start px-3">
       <a href="/" className="ml-2">
             <img src="logo.png" className="h-6 w-6" alt="Accueil" />
           </a>
@@ -51,8 +51,11 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto" id="navbarSupportedContentY" data-te-collapse-item>
-          <ul className="mr-auto flex flex-col lg:flex-row" data-te-navbar-nav-ref>
+        <div className="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto mx-auto" id="navbarSupportedContentY" data-te-collapse-item>
+          <ul className="mx-auto flex flex-col lg:flex-row" data-te-navbar-nav-ref>
+          <a href="/" className="ml-2 lg:hidden">
+            <img src="logo.png" className="h-6 w-6" alt="Accueil" />
+          </a>
             {/* Utiliser une boucle pour générer les éléments de la navbar */}
             {menuItems.map((menuItem, index) => (
               <li key={index} className={`${index > 0 ? 'mb-2 ' : ''}lg:mb-0 lg:pr-2`} data-te-nav-item-ref>

@@ -13,10 +13,10 @@ const MyLightBox = ({ images }) => {
 
   return (
 
-
+<div className="flex items-center justify-center ">
 <div
   data-te-lightbox-init
-  className="flex flex-col space-y-5 lg:flex-row lg:space-x-5 lg:space-y-0">
+  className="flex flex-col space-y-5 lg:flex-row lg:space-x-5 lg:space-y-0 justify-between">
   <div className="flex h-full w-full flex-1 flex-col">
     <img
       src={images[0].src}
@@ -37,7 +37,7 @@ const MyLightBox = ({ images }) => {
       className="w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto" />
   </div>
 </div>
-
+</div>
   );
 };
 

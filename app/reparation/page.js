@@ -4,9 +4,9 @@ import Footer from "../Footer";
 import dynamic from "next/dynamic";
 
 
-const DynamicCarousel = dynamic(() => import("../MyCarousel"), {
-  ssr: false,
-});
+// const DynamicCarousel = dynamic(() => import("../MyCarousel"), {
+//   ssr: false,
+// });
 
 const Reparation = () => {
 
@@ -20,7 +20,7 @@ const Reparation = () => {
     <>
       <Navbar />
 
-      <DynamicCarousel images={images}/>
+      {/* <DynamicCarousel images={images}/> */}
 
       <Footer />
     </>

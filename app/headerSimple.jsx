@@ -25,7 +25,7 @@ const HeaderSimple = () => {
     <header>
       <div className="bg-black px-6 py-6 text-center text-neutral-800 dark:bg-neutral-700 dark:text-neutral-200">
         <div className="flex flex-col  lg:flex-row first-letter:lg:justify-around  items-center">
-        <div class="">
+        <div className="">
           <img src="logo-sans-fond.png" className="rounded-full w-10  md:w-40 lg:w-96 h-auto" alt="" />
         </div>
         

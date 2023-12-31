@@ -2,6 +2,7 @@ import Navbar from "../NavBar";
 import Footer from "../Footer";
 import HeaderSimple from "../headerSimple";
 import MyLightBox from "../MyLightBox";
+import RootLayout from "../layout";
 
 const Travaux = () => {
 
@@ -12,13 +13,16 @@ const Travaux = () => {
   ];
 
 
+  const pageTitle = "Travaux divers";
+  const pageDescription =
+    "Petits travaux de maconnerie, mur en pierre, parpaings, brique, allée, pavés pierre, pavés autobloquant, petite dalle, terrasse";
   return (
-    <>
+    <RootLayout pageTitle={pageTitle} pageDescription={pageDescription}>
       <Navbar />
       <MyLightBox images={images} />
 
       <Footer />
-    </>
+    </RootLayout>
   );
 };
 

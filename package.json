@@ -13,6 +13,8 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-helmet": "^6.1.0",
+    "react-side-effect": "^2.1.2",
     "tw-elements": "^1.1.0"
   },
   "devDependencies": {

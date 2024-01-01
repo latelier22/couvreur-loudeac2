@@ -4,7 +4,7 @@
 const URL = "https://www.couvreur-loudeac.fr"
 
 // Vos routes statiques
-const SITE_ROUTES = ["", "/contact", "/entretien", "/fuite", "/reparation", "travaux-divers"]
+const SITE_ROUTES = ["", "/contact", "/entretien", "/fuite", "/reparation", "/travaux-divers"]
 
 // Vos routes dynamiques
 // Ici, on utilisera plus souvent le résultat d'un call API

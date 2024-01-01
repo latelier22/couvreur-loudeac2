@@ -10,7 +10,7 @@ const SITE_ROUTES = ["", "/contact", "/entretien", "/fuite", "/reparation", "tra
 // Ici, on utilisera plus souvent le résultat d'un call API
 // ou bien une fonction qui va récupérer les chemins de vos pages
 // const getBlogPosts = () => {
-//   return [{ slug: "nextjs-sitemap", date: "2023-08-23T08:42:00.284Z" }]
+//   return [{ slug: "nextjs-sitemap", date: "2024-01-01T08:00:00.000Z" }]
 // }
 
 export default async function sitemap() {

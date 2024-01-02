@@ -28,13 +28,13 @@ const Reparation = () => {
 
         <p className="text-lg mb-4">
           La réparation des toitures est une étape cruciale pour garantir la
-          durabilité et l'intégrité de votre toit. Nous offrons des services de
+          durabilité et l&apos;intégrité de votre toit. Nous offrons des services de
           réparation complets pour répondre à divers besoins.
         </p>
 
         <p className="text-lg mb-4">
           Que ce soit le remplacement des tuiles, des ardoises, ou des tôles,
-          notre équipe expérimentée s'engage à fournir des solutions de qualité
+          notre équipe expérimentée s&apos;engage à fournir des solutions de qualité
           pour assurer la protection de votre maison.
         </p>
 
@@ -44,7 +44,7 @@ const Reparation = () => {
           <li>Réparation des fuites de toit</li>
           <li>Remplacement des ardoises défectueuses</li>
           <li>Entretien général de la toiture</li>
-          {/* Ajoutez d'autres tâches au besoin */}
+          {/* Ajoutez d&apos;autres tâches au besoin */}
         </ul>
       </section>
 

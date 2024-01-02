@@ -11,8 +11,8 @@ const Fuite = () => {
 
   const actionsFuite = [
     "Intervention rapide en cas de tempête ou de fuite de toiture",
-    "Pose urgente de bâche pour prévenir les infiltrations d&apos;eau",
-    "Mise hors d&apos;eau prioritaire pour minimiser les dégâts",
+    'Pose urgente de bâche pour prévenir les infiltrations d&apos;eau',
+    'Mise hors d&apos;eau prioritaire pour minimiser les dégâts',
     "Remplacement immédiat des tuiles, ardoises, et toles endommagées",
     "Service disponible 7 jours sur 7, 24 heures sur 24",
   ];

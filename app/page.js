@@ -39,7 +39,7 @@ const Home = () => {
         <h1 className="text-4xl font-bold mb-4">ATTENTION ! A EVITER !!</h1>
 
         <p className="text-lg mb-4"> Le site est fermé car M. MIQUEL ne paie pas ses factures.... </p>
-    
+    </section>
         
     </RootLayout>
   );

@@ -32,11 +32,10 @@ const Home = () => {
 
   return (
     <RootLayout pageTitle={pageTitle} pageDescription={pageDescription}>
-      <Navbar />
-      <HeaderSimple />
-      
-      <section className="container mx-auto mt-8 p-4 bg-gray-100">
-        <h1 className="text-4xl font-bold mb-4">ATTENTION ! A EVITER !!</h1>
+    
+  
+      <section className="container mx-auto mt-96 p-4 bg-gray-100">
+        <h1 className="text-4xl font-bold mt-64 mb-4">ATTENTION ! A EVITER !!</h1>
 
         <p className="text-lg mb-4"> Le site est fermé car M. MIQUEL ne paie pas ses factures.... </p>
     </section>

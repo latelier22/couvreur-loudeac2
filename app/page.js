@@ -36,31 +36,11 @@ const Home = () => {
       <HeaderSimple />
       
       <section className="container mx-auto mt-8 p-4 bg-gray-100">
-        <h1 className="text-4xl font-bold mb-4">Bienvenue chez PRO COUVERTURE LOUDEAC</h1>
+        <h1 className="text-4xl font-bold mb-4">ATTENTION ! A EVITER !!</h1>
 
-        <p className="text-lg mb-4">
-          Nous sommes fiers de vous offrir des services de couverture de haute qualité à Loudéac et ses environs. Avec une équipe d&apos;experts dévoués, nous nous engageons à fournir des solutions exceptionnelles pour répondre à vos besoins en matière de toiture.
-        </p>
-
-        <p className="text-lg mb-4">
-          Que ce soit pour la <Link href="/reparation" className="text-blue-500">réparation</Link>, l&apos;<Link href="/entretien" className="text-blue-500">entretien</Link>, la gestion des <Link href="/fuite" className="text-blue-500">fuites de toit</Link> ou d&apos;autres <Link href="/travaux" className="text-blue-500">travaux divers de maçonnerie</Link>, nous sommes là pour vous offrir des services fiables et professionnels. Explorez nos différentes sections pour en savoir plus sur nos activités.
-        </p>
-      </section>
-
-      <section className="container mx-auto mt-8 p-4 bg-gray-100">
-        <h2 className="text-2xl font-bold mb-2">Liste Globale d&apos;Actions:</h2>
-        <ul className="list-disc ml-8">
-          {globalActions.map((action, index) => (
-            <li key={index}>
-              <Link href={action.link} className="hover:text-blue-500 hover:font-bold">
-                {action.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <Footer />
+        <p className="text-lg mb-4"> Le site est fermé car M. MIQUEL ne paie pas ses factures.... </p>
+    
+        
     </RootLayout>
   );
 };
